@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for podcast in ./audio/*.{wav,mp3}; do
+for podcast in ./audio/*.{wav,mp3,aif,aifc}; do
 
 	full=$(basename -- "$podcast")
 	extension="${full##*.}"
